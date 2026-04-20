@@ -6,7 +6,8 @@ import Landing from './components/Landing';
 import Libro from './components/Libro';
 import LibroDetalle from './components/LibroDetalle';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import MisLibros from "./components/MisLibros";
+import MisLibros from './components/MisLibros';
+import Nosotros from './components/Nosotros';
 
 
 function AppContent(){
@@ -17,6 +18,7 @@ function AppContent(){
       <Route path="/" element={<Landing />}></Route>
       <Route path="/libros/:id" element={<LibroDetalle />}></Route>
       <Route path="/mis-libros" element={<MisLibros />} />
+      <Route path="/nosotros" element={<Nosotros />} />
     </Routes>
 
   </div>

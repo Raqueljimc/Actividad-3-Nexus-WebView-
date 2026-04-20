@@ -15,7 +15,7 @@ const Header = () => {
             </div>
             <ul className={menuOpen ? "open":""}>
                 <li><Link to={'/'}>Inicio</Link></li>
-                <li><Link to={'#'}>Contacto</Link></li>
+                <li><Link to={'/nosotros'}>Nosotros</Link></li>
                 <li><Link to={'/mis-libros'}>Compras</Link></li>
                 
                 
